@@ -1,4 +1,4 @@
-export default function Collection ()
+export default function Hero ()
 {
     return (
         <div className="min-h-screen w-full flex justify-center items-center px-20">
