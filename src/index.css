@@ -1,1 +1,94 @@
+@font-face {
+    font-family: Poppins;
+    src: url("./assets/fonts/Poppins-Regular.ttf")
+}
+
 @import "tailwindcss";
+
+@theme {
+    --font-poppins: Poppins, "sans-serif";
+    --main-color: #ffd6dc;
+    --main-light: #fdf0f2;
+    --main-dark: #f74b65;
+    --hover-color: #B3969A;
+    --product-bg-color: #f8f8f8;
+}
+
+#nav-bar::after {
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    position: absolute;
+    background-color: var(--main-color);
+    content: '';
+    z-index: -1;
+}
+
+#home {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#home::after {
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    position: absolute;
+    background-color: var(--main-color);
+    content: '';
+    z-index: -1;
+}
+
+#cart {
+    position: relative;
+}
+
+#cart-span {
+    position: absolute;
+    background-color: var(--main-dark);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    right: -6px;
+    top: -6px;
+}
+
+#innerNav {
+    position: relative;
+}
+
+#innerLabel {
+    position: absolute;
+    background-color: var(--main-dark); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    right: -25px;
+    top: -25px;
+}
+
+#innerLabel::after {
+    content: '';
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid var(--main-dark);
+}
