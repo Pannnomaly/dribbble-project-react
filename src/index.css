@@ -92,3 +92,10 @@
     border-left: 5px solid transparent;
     border-top: 5px solid var(--main-dark);
 }
+
+#category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    overflow-x: auto;
+}
