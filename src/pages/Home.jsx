@@ -1,3 +1,4 @@
+import Category from "../components/Category";
 import Collection from "../components/Collection";
 import InnerNavbar from "../components/InnerNavbar";
 
@@ -10,9 +11,7 @@ export default function Home ()
 
             <Collection />
 
-            <div className="bg-amber-300">
-                
-            </div>
+            <Category />
         </div>
     );
 }
