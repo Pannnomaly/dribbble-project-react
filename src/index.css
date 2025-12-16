@@ -77,8 +77,9 @@
     align-items: center;
     font-size: 1rem;
     font-weight: 600;
-    right: -25px;
-    top: -25px;
+    right: -27px;
+    top: -27px;
+    padding: 2px;
 }
 
 #innerLabel::after {
