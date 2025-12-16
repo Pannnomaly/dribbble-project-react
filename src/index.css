@@ -12,6 +12,7 @@
     --main-dark: #f74b65;
     --hover-color: #D24056;
     --product-bg-color: #f8f8f8;
+    --fade-color: #909090;
 }
 
 #nav-bar::after {
@@ -98,4 +99,30 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 50px;
     overflow-x: auto;
+}
+
+#popular-dress {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-gap: 50px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+#popular-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#product-btn {
+    border-top: 1px solid var(--fade-color);
+    width: 100%;
+    padding: 10px;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
