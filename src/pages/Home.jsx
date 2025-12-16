@@ -1,6 +1,7 @@
 import Category from "../components/Category";
 import Hero from "../components/Hero";
 import InnerNavbar from "../components/InnerNavbar";
+import Popular from "../components/Popular";
 
 export default function Home ()
 {
@@ -12,6 +13,8 @@ export default function Home ()
             <Hero />
 
             <Category />
+
+            <Popular />
         </div>
     );
 }
