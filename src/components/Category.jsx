@@ -31,7 +31,7 @@ export default function Category ()
                     <img src="c4.png" alt="Rose Flower" className="w-full h-full object-contain object-center" />
                 </div>
                 <div>
-                    <p className="text-2xl font-semibold mt-3">Rose Flower</p>
+                    <p className="text-2xl font-semibold mt-3">Rose</p>
                 </div>
             </a>
             <a href="#" className="flex flex-col justify-center items-center pb-5 hover:text-(--main-dark) transition duration-300 ease-in-out">
