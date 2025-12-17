@@ -6,7 +6,7 @@ export default function Popular ()
             <div id="popular-dress" className="pt-5">
                 <div id="popular-product">
                     <div className="flex flex-col w-full">
-                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-[5px] relative">
+                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-md relative">
                             <img src="p5.png" alt="product-1" className="w-full h-full object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
                             <span className="absolute text-lg right-px top-px text-white bg-(--main-dark) rounded-[3px] tracking-tight px-10 py-2">New</span>
                         </a>
@@ -21,8 +21,8 @@ export default function Popular ()
                     </div>
 
                     <div className="flex flex-col w-full">
-                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-[5px] relative">
-                            <img src="p1.png" alt="product-2" className="w-full h-full object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
+                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-md relative">
+                            <img src="p1.png" alt="product-2" className="w-[95%] h-[95%] object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
                             <span className="absolute text-lg right-px top-px text-white bg-(--main-dark) rounded-[3px] tracking-tight px-10 py-2">New</span>
                         </a>
                         <div className="flex flex-col justify-center items-center py-3">
@@ -36,8 +36,8 @@ export default function Popular ()
                     </div>
 
                     <div className="flex flex-col w-full">
-                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-[5px] relative">
-                            <img src="p2.png" alt="product-3" className="w-full h-full object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
+                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-md relative">
+                            <img src="p2.png" alt="product-3" className="w-[95%] h-[95%] object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
                             <span className="absolute text-lg right-px top-px text-white bg-(--main-dark) rounded-[3px] tracking-tight px-10 py-2">New</span>
                         </a>
                         <div className="flex flex-col justify-center items-center py-3">
@@ -51,8 +51,8 @@ export default function Popular ()
                     </div>
 
                     <div className="flex flex-col w-full">
-                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-[5px] relative">
-                            <img src="p4.png" alt="product-4" className="w-full h-full object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
+                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-md relative">
+                            <img src="p4.png" alt="product-4" className="w-[95%] h-[95%] object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
                             <span className="absolute text-lg right-px top-px text-white bg-(--main-dark) rounded-[3px] tracking-tight px-10 py-2">New</span>
                         </a>
                         <div className="flex flex-col justify-center items-center py-3">
@@ -66,8 +66,8 @@ export default function Popular ()
                     </div>
 
                     <div className="flex flex-col w-full">
-                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-[5px] relative">
-                            <img src="p6.png" alt="product-5" className="w-full h-full object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
+                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-md relative">
+                            <img src="p6.png" alt="product-5" className="w-[95%] h-[95%] object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
                             <span className="absolute text-lg right-px top-px text-white bg-(--main-dark) rounded-[3px] tracking-tight px-10 py-2">New</span>
                         </a>
                         <div className="flex flex-col justify-center items-center py-3">
@@ -81,8 +81,8 @@ export default function Popular ()
                     </div>
 
                     <div className="flex flex-col w-full">
-                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-[5px] relative">
-                            <img src="p3.png" alt="product-6" className="w-full h-full object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
+                        <a href="#" className="w-full h-full bg-(--product-bg-color) p-5 rounded-md relative">
+                            <img src="p3.png" alt="product-6" className="w-[90%] h-[90%] object-contain object-center hover:opacity-[0.8] transition duration-300 ease-in-out" />
                             <span className="absolute text-lg right-px top-px text-white bg-(--main-dark) rounded-[3px] tracking-tight px-10 py-2">New</span>
                         </a>
                         <div className="flex flex-col justify-center items-center py-3">
@@ -95,7 +95,7 @@ export default function Popular ()
                         </div>
                     </div>
                 </div>
-                <div className="h-full flex flex-col justify-between items-center text-center bg-(--main-light) px-10 py-12">
+                <div className="h-full flex flex-col justify-between items-center text-center bg-(--main-light) px-10 py-12 rounded-md">
                     <div className="flex flex-col justify-center items-center mt-10">
                         <p className="text-3xl font-bold">Summer Flower Collection</p>
                         <a href="#" className="text-2xl font-semibold mt-5 text-(--main-dark) hover:text-(--hover-color) transition duration-300 ease-in-out">Shop Now</a>

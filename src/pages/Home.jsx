@@ -2,6 +2,7 @@ import Category from "../components/Category";
 import Hero from "../components/Hero";
 import InnerNavbar from "../components/InnerNavbar";
 import Popular from "../components/Popular";
+import ShoppingBanner from "../components/ShoppingBanner";
 
 export default function Home ()
 {
@@ -15,6 +16,8 @@ export default function Home ()
             <Category />
 
             <Popular />
+
+            <ShoppingBanner />
         </div>
     );
 }
